@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  /* Variables */
+
+  --primary-color: #D93838;
+  --secondary-color: #757575;
+  --morning-shift: rgba(89, 183, 217, 0.7);
+  --midshift: rgba(224, 124, 145, 0.6);
+  --two-shift: rgba(67, 217, 110, 0.7);
+  --four-shift: rgba(217, 139, 56, 0.7);
+  --double-shift:rgba(175, 124, 212, 0.7);
+  --black: black;
+}
+
+* {
+  /* Reseteo del modelo de caja */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

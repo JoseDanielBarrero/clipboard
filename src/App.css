@@ -1,0 +1,64 @@
+
+
+.prueba {
+  background-color: var(--double-shift);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  margin: 5px;
+}
+.prueba2 {
+  background-color: var(--morning-shift);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  margin: 5px;
+}
+.prueba3 {
+  background-color: var(--two-shift);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  margin: 5px;
+}
+.prueba4 {
+  background-color: var(--four-shift);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  margin: 5px;
+}
+.prueba5 {
+  background-color: var(--midshift);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+}
+
+.clipboard{
+  grid-column: 1 / 10;
+  grid-row: 1/22;
+  border-right: 5px solid var(--secondary-color);
+}
+
+.breakroom{
+  grid-column: 10 / 13;
+  grid-row: 1/22;
+}
+.function-bar{
+  grid-column: 1 / 13;
+  grid-row: 22/25;
+  border-top: 5px solid var(--secondary-color);
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
